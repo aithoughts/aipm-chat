@@ -16,13 +16,13 @@ tags:
 
 <Callout type={'tip'}>
 
-If you want to deploy Logto privately, we recommend using Docker Compose to deploy it together with the LobeChat database version. In this case, LobeChat can share the same Postgres instance with it.
+If you want to deploy Logto privately, we recommend using Docker Compose to deploy it together with the LoiChat database version. In this case, LoiChat can share the same Postgres instance with it.
 
 </Callout>
 
 ## Logto Configuration Process
 
-The following assumes your LobeChat database version domain is `https://lobe.example.com`.
+The following assumes your LoiChat database version domain is `https://lobe.example.com`.
 
 If you are using a privately deployed Logto, assume its endpoint domain is `https://lobe-auth-api.example.com`.
 
@@ -47,9 +47,9 @@ If you are using Logto Cloud, assume its endpoint domain is `https://example.log
 
   <Image alt="Configure Environment Variables" inStep src="https://github.com/user-attachments/assets/15af6d94-af4f-4aa9-bbab-7a46e9f9e837" />
 
-  Set the obtained `Client ID` and `Client Secret` as `LOGTO_CLIENT_ID` and `LOGTO_CLIENT_SECRET` in the LobeChat environment variables.
+  Set the obtained `Client ID` and `Client Secret` as `LOGTO_CLIENT_ID` and `LOGTO_CLIENT_SECRET` in the LoiChat environment variables.
 
-  Configure `LOGTO_ISSUER` in the LobeChat environment variables as follows:
+  Configure `LOGTO_ISSUER` in the LoiChat environment variables as follows:
 
   - `https://lobe-auth-api.example.com/oidc` if you are using a privately deployed Logto
   - `https://example.logto.app/oidc` if you are using Logto Cloud
@@ -59,7 +59,7 @@ If you are using Logto Cloud, assume its endpoint domain is `https://example.log
   | Environment Variable      | Type     | Description                                                                                                                                                                            |
   | ------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
   | `NEXT_AUTH_SECRET`        | Required | The key used to encrypt Auth.js session tokens. You can generate a key using the command: `openssl rand -base64 32`                                                                    |
-  | `NEXT_AUTH_SSO_PROVIDERS` | Required | Select the single sign-on provider for LobeChat. For Logto, enter `logto`.                                                                                                             |
+  | `NEXT_AUTH_SSO_PROVIDERS` | Required | Select the single sign-on provider for LoiChat. For Logto, enter `logto`.                                                                                                             |
   | `LOGTO_CLIENT_ID`         | Required | The Client ID from the Logto App details page                                                                                                                                          |
   | `LOGTO_CLIENT_SECRET`     | Required | The Client Secret from the Logto App details page                                                                                                                                      |
   | `LOGTO_ISSUER` | Required | OpenID Connect issuer of the Logto provider |
@@ -71,4 +71,4 @@ If you are using Logto Cloud, assume its endpoint domain is `https://example.log
 </Callout>
 </Steps>
 
-<Callout type={'info'}>After successful deployment, users will be able to authenticate via Logto and use LobeChat.</Callout>
+<Callout type={'info'}>After successful deployment, users will be able to authenticate via Logto and use LoiChat.</Callout>

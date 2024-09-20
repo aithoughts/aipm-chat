@@ -265,7 +265,7 @@ class Ld {
         '@id': this.getId(fixedUrl, '#primaryimage'),
       },
       'inLanguage': locale,
-      'keywords': tags?.join(' ') || 'LobeHub LobeChat',
+      'keywords': tags?.join(' ') || 'LoiHub LoiChat',
       'mainEntityOfPage': fixedUrl,
       'name': title,
       'publisher': {

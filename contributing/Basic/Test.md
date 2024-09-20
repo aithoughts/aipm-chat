@@ -28,7 +28,7 @@ We encourage developers to write corresponding unit tests while writing code to 
 
 End-to-end testing is used to test the functionality and performance of the application in a real environment. It simulates real user operations and verifies the application's performance in different scenarios.
 
-Currently, there is no integrated end-to-end testing in LobeChat. We will gradually introduce end-to-end testing in subsequent iterations.
+Currently, there is no integrated end-to-end testing in LoiChat. We will gradually introduce end-to-end testing in subsequent iterations.
 
 ## Development Testing
 

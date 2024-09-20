@@ -1,7 +1,7 @@
 ---
-title: Deploy LobeChat with database on Vercel
+title: Deploy LoiChat with database on Vercel
 description: >-
-  Learn how to deploy LobeChat with database on Vercel with ease, including:
+  Learn how to deploy LoiChat with database on Vercel with ease, including:
   database, authentication and S3 storage service.
 tags:
   - Deploy LobeChat
@@ -12,7 +12,7 @@ tags:
 
 # Deploying Server Database Version on Vercel
 
-This article will detail how to deploy the server database version of LobeChat on Vercel, including: 1) database configuration; 2) identity authentication service configuration; 3) steps for setting up the S3 storage service.
+This article will detail how to deploy the server database version of LoiChat on Vercel, including: 1) database configuration; 2) identity authentication service configuration; 3) steps for setting up the S3 storage service.
 
 <Callout type={'warning'}>
 Before proceeding, please make sure of the following:
@@ -111,7 +111,7 @@ Make sure to add this to the Vercel environment variables as well.
 
 ### Add the `APP_URL` Environment Variable
 
-Finally, you need to add the `APP_URL` environment variable, which specifies the URL address of the LobeChat application.
+Finally, you need to add the `APP_URL` environment variable, which specifies the URL address of the LoiChat application.
 
 </Steps>
 
@@ -263,7 +263,7 @@ S3_PUBLIC_DOMAIN=https://s3-for-lobechat.your-domain.com
 
 ### Obtain S3 Key Environment Variables
 
-You need to obtain the access key for S3 so that the LobeChat server has permission to access the S3 storage service. In R2, you can configure the access key in the account details:
+You need to obtain the access key for S3 so that the LoiChat server has permission to access the S3 storage service. In R2, you can configure the access key in the account details:
 
 <Image
   alt={'View Storage Bucket Access Key'}
@@ -365,7 +365,7 @@ After configuring, click save.
 
 ## Four, Deployment and Verification
 
-After completing the steps above, the configuration of the server-side database should be done. Next, we can deploy LobeChat to Vercel and then visit your Vercel link to verify if the server-side database is working correctly.
+After completing the steps above, the configuration of the server-side database should be done. Next, we can deploy LoiChat to Vercel and then visit your Vercel link to verify if the server-side database is working correctly.
 
 <Steps>
   ### Redeploy the latest commit

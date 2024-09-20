@@ -621,7 +621,7 @@ Get data from users`,
             {
               function: {
                 arguments:
-                  '{"query":"LobeChat","searchEngines":["brave","google","duckduckgo","qwant"]}',
+                  '{"query":"LoiChat","searchEngines":["brave","google","duckduckgo","qwant"]}',
                 name: 'lobe-web-browsing____searchWithSearXNG____builtin',
               },
               id: 'call_6xCmrOtFOyBAcqpqO1TGfw2B',
@@ -630,7 +630,7 @@ Get data from users`,
             {
               function: {
                 arguments:
-                  '{"query":"LobeChat","searchEngines":["brave","google","duckduckgo","qwant"]}',
+                  '{"query":"LoiChat","searchEngines":["brave","google","duckduckgo","qwant"]}',
                 name: 'lobe-web-browsing____searchWithSearXNG____builtin',
               },
               id: 'tool_call_nXxXHW8Z',
@@ -687,7 +687,7 @@ Get data from users`,
             {
               function: {
                 arguments:
-                  '{"query":"LobeChat","searchEngines":["brave","google","duckduckgo","qwant"]}',
+                  '{"query":"LoiChat","searchEngines":["brave","google","duckduckgo","qwant"]}',
                 name: 'lobe-web-browsing____searchWithSearXNG____builtin',
               },
               id: 'call_6xCmrOtFOyBAcqpqO1TGfw2B',
@@ -696,7 +696,7 @@ Get data from users`,
             {
               function: {
                 arguments:
-                  '{"query":"LobeChat","searchEngines":["brave","google","duckduckgo","qwant"]}',
+                  '{"query":"LoiChat","searchEngines":["brave","google","duckduckgo","qwant"]}',
                 name: 'lobe-web-browsing____searchWithSearXNG____builtin',
               },
               id: 'tool_call_nXxXHW8Z',

@@ -24,20 +24,20 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - NAME: 'LobeChat | Welcome'
-            URLS: 'https://chat-preview.lobehub.com/welcome'
+          - NAME: 'LoiChat | Welcome'
+            URLS: 'https://chat.theforage.cn/welcome'
             BADGES_ARGS: '-b pagespeed -o lighthouse/welcome -r'
             COMMIT_MESSAGE: '🤖 chore: Lighthouse Results | Welcome'
-          - NAME: 'LobeChat | Chat'
-            URLS: 'https://chat-preview.lobehub.com/chat'
+          - NAME: 'LoiChat | Chat'
+            URLS: 'https://chat.theforage.cn/chat'
             BADGES_ARGS: '-b pagespeed -o lighthouse/chat -r'
             COMMIT_MESSAGE: '🤖 chore: Lighthouse Results | Chat'
-          - NAME: 'LobeChat | Market'
-            URLS: 'https://chat-preview.lobehub.com/market'
+          - NAME: 'LoiChat | Market'
+            URLS: 'https://chat.theforage.cn/market'
             BADGES_ARGS: '-b pagespeed -o lighthouse/market -r'
             COMMIT_MESSAGE: '🤖 chore: Lighthouse Results | Market'
-          - NAME: 'LobeChat | Settings'
-            URLS: 'https://chat-preview.lobehub.com/settings'
+          - NAME: 'LoiChat | Settings'
+            URLS: 'https://chat.theforage.cn/settings'
             BADGES_ARGS: '-b pagespeed -o lighthouse/settings -r'
             COMMIT_MESSAGE: '🤖 chore: Lighthouse Results | Settings'
 

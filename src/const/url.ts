@@ -9,7 +9,7 @@ import { INBOX_SESSION_ID } from './session';
 export const UTM_SOURCE = 'chat_preview';
 
 export const OFFICIAL_URL = 'https://lobechat.com/';
-export const OFFICIAL_PREVIEW_URL = 'https://chat-preview.lobehub.com/';
+export const OFFICIAL_PREVIEW_URL = 'https://chat.theforage.cn/';
 export const OFFICIAL_SITE = 'https://lobehub.com/';
 
 export const getCanonicalUrl = (path: string) => urlJoin(OFFICIAL_URL, path);
@@ -42,7 +42,7 @@ export const DISCORD = 'https://discord.gg/AYFPHvv2jT';
 export const PRIVACY_URL = urlJoin(OFFICIAL_SITE, '/privacy');
 export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/terms');
 
-export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
+export const PLUGINS_INDEX_URL = 'https://chat-plugins.theforage.cn';
 
 export const MORE_MODEL_PROVIDER_REQUEST_URL =
   'https://github.com/lobehub/lobe-chat/discussions/1284';

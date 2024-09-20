@@ -1,6 +1,6 @@
 # Architecture Design
 
-LobeChat is an AI conversation application built on the Next.js framework, aiming to provide an AI productivity platform that enables users to interact with AI through natural language. The following is an overview of the architecture design of LobeChat:
+LoiChat is an AI conversation application built on the Next.js framework, aiming to provide an AI productivity platform that enables users to interact with AI through natural language. The following is an overview of the architecture design of LoiChat:
 
 #### TOC
 
@@ -14,11 +14,11 @@ LobeChat is an AI conversation application built on the Next.js framework, aimin
 
 ## Application Architecture Overview
 
-The overall architecture of LobeChat consists of the frontend, EdgeRuntime API, Agents Market, Plugin Market, and independent plugins. These components collaborate to provide a complete AI experience.
+The overall architecture of LoiChat consists of the frontend, EdgeRuntime API, Agents Market, Plugin Market, and independent plugins. These components collaborate to provide a complete AI experience.
 
 ## Frontend Architecture
 
-The frontend of LobeChat adopts the Next.js framework, leveraging its powerful server-side rendering (SSR) capability and routing functionality. The frontend utilizes a stack of technologies, including the antd component library, lobe-ui AIGC component library, zustand state management, swr request library, i18next internationalization library, and more. These technologies collectively support the functionality and features of LobeChat.
+The frontend of LoiChat adopts the Next.js framework, leveraging its powerful server-side rendering (SSR) capability and routing functionality. The frontend utilizes a stack of technologies, including the antd component library, lobe-ui AIGC component library, zustand state management, swr request library, i18next internationalization library, and more. These technologies collectively support the functionality and features of LoiChat.
 
 The components in the frontend architecture include app, components, config, const, features, helpers, hooks, layout, locales, migrations, prompts, services, store, styles, types, and utils. Each component has specific responsibilities and collaborates with others to achieve different functionalities.
 
@@ -32,13 +32,13 @@ The Agents Market is a crucial part of LobeChat, providing various AI agents for
 
 ## Plugin Market
 
-The Plugin Market is another key component of LobeChat, offering various plugins to extend the functionality and features of LobeChat. Plugins can be independent functional modules or integrated with agents from the Agents Market. During conversations, the assistant automatically identifies user input, recognizes suitable plugins, and passes them to the corresponding plugins for processing and returns the results.
+The Plugin Market is another key component of LobeChat, offering various plugins to extend the functionality and features of LoiChat. Plugins can be independent functional modules or integrated with agents from the Agents Market. During conversations, the assistant automatically identifies user input, recognizes suitable plugins, and passes them to the corresponding plugins for processing and returns the results.
 
 ## Security and Performance Optimization
 
 LobeChat's security strategy includes authentication and permission management. Users need to authenticate before using LobeChat, and operations are restricted based on the user's permissions.
 
-To optimize performance, LobeChat utilizes Next.js SSR functionality to achieve fast page loading and response times. Additionally, a series of performance optimization measures are implemented, including code splitting, caching, and resource compression.
+To optimize performance, LoiChat utilizes Next.js SSR functionality to achieve fast page loading and response times. Additionally, a series of performance optimization measures are implemented, including code splitting, caching, and resource compression.
 
 ## Development and Deployment Process
 
