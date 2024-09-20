@@ -240,10 +240,10 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 | 最近新增                                                                                                               | 插件描述                                                                                                           |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| [通义万象图像生成器](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **YoungTx** on **2024-08-09**</sup>  | 此插件使用阿里巴巴的通义万象模型根据文本提示生成图像。<br/>`图像` `通义` `万象`                                    |
-| [购物工具](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **shoppingtools** on **2024-07-19**</sup>      | 在 eBay 和 AliExpress 上搜索产品，查找 eBay 活动和优惠券。获取快速示例。<br/>`购物` `e-bay` `ali-express` `优惠券` |
-| [Savvy Trader AI](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **savvytrader** on **2024-06-27**</sup> | 实时股票、加密货币和其他投资数据。<br/>`股票` `分析`                                                               |
-| [Search1API](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **fatwang2** on **2024-05-06**</sup>         | 搜索聚合服务，专为 LLMs 设计<br/>`web` `search`                                                                    |
+| [通义万象图像生成器](https://chat.theforage.cn/settings/agent)<br/><sup>By **YoungTx** on **2024-08-09**</sup>  | 此插件使用阿里巴巴的通义万象模型根据文本提示生成图像。<br/>`图像` `通义` `万象`                                    |
+| [购物工具](https://chat.theforage.cn/settings/agent)<br/><sup>By **shoppingtools** on **2024-07-19**</sup>      | 在 eBay 和 AliExpress 上搜索产品，查找 eBay 活动和优惠券。获取快速示例。<br/>`购物` `e-bay` `ali-express` `优惠券` |
+| [Savvy Trader AI](https://chat.theforage.cn/settings/agent)<br/><sup>By **savvytrader** on **2024-06-27**</sup> | 实时股票、加密货币和其他投资数据。<br/>`股票` `分析`                                                               |
+| [Search1API](https://chat.theforage.cn/settings/agent)<br/><sup>By **fatwang2** on **2024-05-06**</sup>         | 搜索聚合服务，专为 LLMs 设计<br/>`web` `search`                                                                    |
 
 > 📊 Total plugins: [<kbd>**50**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
@@ -275,10 +275,10 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 | 最近新增                                                                                                                                                                 | 助手说明                                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| [健身 AI 教练](https://chat-preview.lobehub.com/market?agent=ai-trainer)<br/><sup>By **[andreasvikke](https://github.com/andreasvikke)** on **2024-09-19**</sup>         | 专注于个性化计划、肌肉目标、姿势指导、进度跟踪、激励和虚拟现实训练的 AI 锻炼助手。<br/>`锻炼助手` `健身` `运动` `训练` `营养`   |
-| [Alfred](https://chat-preview.lobehub.com/market?agent=alfred)<br/><sup>By **[Bern3rsH](https://github.com/Bern3rsH)** on **2024-09-19**</sup>                           | 一位全能的管家。<br/>`生活` `个人`                                                                                              |
-| [职业发展导师](https://chat-preview.lobehub.com/market?agent=career-development)<br/><sup>By **[daylight2022](https://github.com/daylight2022)** on **2024-09-19**</sup> | 专业的职业发展规划和创业咨询，通过深入了解用户情况提供切实可行的建议<br/>`职业咨询` `职业规划` `创业指导` `行业洞察` `技能提升` |
-| [词汇助手](https://chat-preview.lobehub.com/market?agent=english-words-helper)<br/><sup>By **[SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-19**</sup> | 擅长英语单词释义及例句翻译助手<br/>`词汇助手` `英语` `翻译` `例句` `释义`                                                       |
+| [健身 AI 教练](https://chat.theforage.cn/market?agent=ai-trainer)<br/><sup>By **[andreasvikke](https://github.com/andreasvikke)** on **2024-09-19**</sup>         | 专注于个性化计划、肌肉目标、姿势指导、进度跟踪、激励和虚拟现实训练的 AI 锻炼助手。<br/>`锻炼助手` `健身` `运动` `训练` `营养`   |
+| [Alfred](https://chat.theforage.cn/market?agent=alfred)<br/><sup>By **[Bern3rsH](https://github.com/Bern3rsH)** on **2024-09-19**</sup>                           | 一位全能的管家。<br/>`生活` `个人`                                                                                              |
+| [职业发展导师](https://chat.theforage.cn/market?agent=career-development)<br/><sup>By **[daylight2022](https://github.com/daylight2022)** on **2024-09-19**</sup> | 专业的职业发展规划和创业咨询，通过深入了解用户情况提供切实可行的建议<br/>`职业咨询` `职业规划` `创业指导` `行业洞察` `技能提升` |
+| [词汇助手](https://chat.theforage.cn/market?agent=english-words-helper)<br/><sup>By **[SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-19**</sup> | 擅长英语单词释义及例句翻译助手<br/>`词汇助手` `英语` `翻译` `例句` `释义`                                                       |
 
 > 📊 Total agents: [<kbd>**351**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
@@ -844,6 +844,6 @@ This project is [Apache 2.0](./LICENSE) licensed.
 [submit-agents-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
 [submit-plugin-link]: https://github.com/lobehub/lobe-chat-plugins
 [submit-plugin-shield]: https://img.shields.io/badge/🧩/🏪_submit_plugin-%E2%86%92-95f3d9?labelColor=black&style=for-the-badge
-[vercel-link]: https://chat-preview.lobehub.com
+[vercel-link]: https://chat.theforage.cn
 [vercel-shield]: https://img.shields.io/badge/vercel-online-55b467?labelColor=black&logo=vercel&style=flat-square
 [vercel-shield-badge]: https://img.shields.io/badge/TRY%20LOBECHAT-ONLINE-55b467?labelColor=black&logo=vercel&style=for-the-badge
